@@ -1,15 +1,42 @@
-body {
+header {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+header .image-container {
+	display: flex;
+	width: 5%;
+	height: 100%;
+}
+
+header ul {
+	list-style: none;
+}
+
+header nav ul{
+	display: flex;
+	justify-content: center;
+}
+
+header ul li {
+	padding-right: 20px;
+}
+
+.conteudo {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 10px;
 }
 
 .container {
-	background-color: rgba(25, 25, 25, 0.2);
+
 }
 
 .titulo {
 	display: flex;
 	justify-content: center;
+	background-color: rgba(25, 25, 25, 0.2);
 	border: 1px solid black;
 	border-radius: 25px;
 }
@@ -17,7 +44,17 @@ body {
 .texto {
 	display: flex;
 	justify-content: center;
+	background-color: rgba(25, 25, 25, 0.2);
 	border: 1px solid black;
 	border-radius: 15px;
 	text-align: center;
+}
+
+.image-container {
+	overflow: hidden;
+}
+
+.image-container img {
+	display: block;
+	max-width: 100%;
 }
