@@ -1,0 +1,23 @@
+body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	background-color: rgba(25, 25, 25, 0.2);
+}
+
+.titulo {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+.texto {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: 15px;
+	text-align: center;
+}
