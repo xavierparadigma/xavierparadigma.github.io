@@ -31,11 +31,12 @@ header ul li {
 .conteudo {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-top: 10px;
 }
 
 .container {
-
+	width: 40%;
 	display: block;
 	margin: 10px;
 	padding: 10px;
@@ -50,15 +51,12 @@ header ul li {
 	margin: 10px;
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
-	/* padding: 0.5rem; */
-	/* background-color: rgba(25, 25, 25, 0.2); */
-	/* border: 1px solid black; */
-	/* border-radius: 10px; */
 }
 
 .texto-centro {
 	text-align: center;
 	position: relative;
+	font-size: 20px;
 }
 
 h2.texto-centro {
@@ -99,10 +97,24 @@ h2.texto-centro {
 }
 
 .imagem-pequena {
-	width: 40% !important;
-	height: 40% !important;
+	width: 100%;
+	height: 100%;
 }
 
 body {
 	margin: 0;
+}
+
+.exemplo-xavier {
+	justify-content: center;
+}
+
+.exemplo-xavier .container {
+	width: 20%;
+	padding: 20px;
+}
+
+.exemplo-xavier .imagem-container {
+	display: flex;
+	justify-content: center;
 }
