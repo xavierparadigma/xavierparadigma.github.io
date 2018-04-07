@@ -31,13 +31,13 @@ header ul li {
 }
 
 .container {
-display: block;
-/* justify-content: center; */
-margin: 10px;
-padding: 10px;
-background-color: rgba(25, 25, 25, 0.08);
-border: 1px solid black;
-border-radius: 10px;
+
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(25, 25, 25, 0.08);
+	border: 1px solid black;
+	border-radius: 10px;
 }
 
 .titulo {
@@ -67,7 +67,7 @@ h2.texto-centro {
 	color: #1c45ac;
 }
 
-.texto {
+.texto-secao {
 	padding: 15px;
 	display: flex;
 	justify-content: center;
@@ -87,4 +87,18 @@ h2.texto-centro {
 	margin-right: auto;
 	display: block;
 	max-width: 60%;
+}
+
+.sintaxe img {
+	width: 100%;
+	height: 100%;
+}
+
+.imagem-pequena {
+	width: 40% !important;
+	height: 40% !important;
+}
+
+body {
+	margin: 0;
 }
