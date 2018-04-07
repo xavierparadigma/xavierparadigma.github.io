@@ -48,7 +48,6 @@ header ul li {
 .titulo {
 	display: flex;
 	justify-content: center;
-	margin: 10px;
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
 }
