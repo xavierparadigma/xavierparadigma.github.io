@@ -50,6 +50,9 @@ header ul li {
 	justify-content: center;
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1rem;
 }
 
 .texto-centro {
@@ -76,6 +79,15 @@ h2.texto-centro {
 	border-radius: 10px;
 	text-align: center;
 	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+	/* text-align: center; */
+	font-size: .9rem;
+}
+
+.titulo-texto {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	margin: 0 1rem;
 }
 
 .image-container {
