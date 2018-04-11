@@ -5,7 +5,7 @@ header {
 }
 
 header .image-container {
-	padding: 5rem 0;
+	padding: 2rem 0;
 	display: block;
 	width: auto;
 	height: auto;
@@ -30,7 +30,7 @@ header ul li {
 
 .conteudo {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 10px;
 }
@@ -50,12 +50,14 @@ header ul li {
 	justify-content: center;
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1rem;
 }
 
 .texto-centro {
 	text-align: center;
 	position: relative;
-	font-size: 20px;
 }
 
 h2.texto-centro {
@@ -77,6 +79,15 @@ h2.texto-centro {
 	border-radius: 10px;
 	text-align: center;
 	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+	/* text-align: center; */
+	font-size: .9rem;
+}
+
+.titulo-texto {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	margin: 0 1rem;
 }
 
 .image-container {
@@ -87,7 +98,8 @@ h2.texto-centro {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	max-width: 60%;
+	width: 20rem;
+	height: 20rem;
 }
 
 .exemplo img {
