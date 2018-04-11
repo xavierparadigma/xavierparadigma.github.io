@@ -84,6 +84,14 @@ h2.texto-centro {
 	font-size: .9rem;
 }
 
+.codigo {
+	text-align:left;
+}
+
+.codigo hr {
+	border-style:solid;
+}
+
 .titulo-texto {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.2rem;
