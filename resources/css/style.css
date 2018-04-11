@@ -5,7 +5,7 @@ header {
 }
 
 header .image-container {
-	padding: 5rem 0;
+	padding: 2rem 0;
 	display: block;
 	width: auto;
 	height: auto;
@@ -55,7 +55,6 @@ header ul li {
 .texto-centro {
 	text-align: center;
 	position: relative;
-	font-size: 20px;
 }
 
 h2.texto-centro {
@@ -87,7 +86,8 @@ h2.texto-centro {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	max-width: 60%;
+	width: 20rem;
+	height: 20rem;
 }
 
 .exemplo img {
