@@ -84,6 +84,19 @@ h2.texto-centro {
 	font-size: .9rem;
 }
 
+.flex-coluna {
+	flex-direction: column;
+}
+
+.borda {
+	border: 1px solid;
+	padding: 0.2rem;
+} 
+
+.margem-cima {
+	margin-top: 1rem;
+}
+
 .codigo {
 	text-align:left;
 }
