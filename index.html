@@ -128,6 +128,23 @@
 				</span>
 			</div>
 		</div>
+
+		<div class="container">
+			<div class="titulo">
+				<span>Separação em Camadas</span>
+			</div>
+			<div class="texto-secao flex-coluna">
+				<span>A utilização da xavier se dá em camadas.
+				<br><b>Camada de comandos:</b> que utiliza os comandos dados pela interface neural. 
+ 				<br><b>Camada IDE:</b> realiza a visualização gráfica do algoritmo escrita.
+ 				<br><b>Camada de código/linguagem:</b> contendo as regras semânticas e de sintaxe.
+				<br>A XAVIER trabalha na camada de <b>código/linguagem</b> e na camada de <b>IDE</b>
+				</span>
+				<div class="imagem-container borda margem-cima">
+					<img class="imagem-pequena" src="./resources/images/Camadas.jpeg" alt="Exemplo da sintaxe e semântica">
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="secao" >
@@ -150,7 +167,7 @@
 				</div>
 				<div class="codigo texto-secao">
 					<span>IF ($12 = $14)
-					<br>&emsp;$23 = $23
+					<br>&emsp;$23 = $24
 					</span>
 				</div>
 			</div>
@@ -162,8 +179,7 @@
 				<div class="codigo texto-secao">
 					<span>IF ($12 = $14)
 					<br>&emsp;$23 = $28
-					<hr>
-					<br>&emsp;$23 = $29
+					<hr>&emsp;$23 = $29
 					</span>
 				</div>
 			</div>
@@ -174,7 +190,7 @@
 				</div>
 				<div class="codigo texto-secao">
 					<span>W ($12 = $14)
-					<br>&emsp;$23 = $23 * $28
+					<br>&emsp;$23 = $24 * $28
 					</span>
 				</div>
 			</div>
@@ -185,7 +201,7 @@
 				</div>
 				<div class="codigo texto-secao">
 					<span>>
-          			<br>&emsp;$23 = $23 * $28
+          			<br>&emsp;$23 = $24 * $28
 					<br>W ($12 = $14)
 					</span>
 				</div>
