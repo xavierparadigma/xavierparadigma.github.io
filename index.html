@@ -190,6 +190,27 @@
 
 		<div class="container">
 			<div class="titulo">
+				<span>Regras semânticas e trade-offs</span>
+			</div>
+			<div class="texto-secao">
+				<span>
+					<ul>
+						<li><b>Checagem dinâmica de tipo</b>: permite grande flexibilidade. Tem trade-off de menos desempenho.</li>
+						<br>
+						<li><b>Retorno de Função opcional</b>: permite funções retornarem valores ou não, comportamento de subrotina. Trade-off na verificação do compilador.</li>
+						<br>
+						<li><b>Variável não necessita ser inicializada</b>: permite mais flexibilidade na programação. Trade-off na estabilidade do programa.</li>
+						<br>
+						<li><b>Funções devem ser declaradas antes do uso</b>: permite a criação e execução correta de funções.</li>
+						<br>
+						<li><b>Teste condicional deve ter tipo booleano</b>: permite utilizar a lógica de maneira mais acertiva, evitando conversões e testes específicos de tipos. Ex. <b>false == 0 -> true</b> (javascript)</li>
+					</ul>
+				</span>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="titulo">
 				<span>Tipos de dados</span>
 			</div>
 			<div class="texto-secao">
@@ -208,27 +229,6 @@
 					<br>Trababalhará tambem com tipo de dados compostos como Array. os Arrays podem ter em cada segmento de sua alocação um tipo de dado tal como:
 					<br>
 					<br>$44 = 12, 'C', 'Oi', 45.7, false, null, 'hello, word'
-				</span>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="titulo">
-				<span>Regras semânticas</span>
-			</div>
-			<div class="texto-secao">
-				<span>
-					<ul>
-						<li><b>Checagem dinâmica de tipo</b>: permite grande flexibilidade. Tem trade-off de menos desempenho.</li>
-						<br>
-						<li><b>Retorno de Função opcional</b>: permite funções retornarem valores ou não, comportamento de subrotina. Trade-off na verificação do compilador.</li>
-						<br>
-						<li><b>Variável não necessita ser inicializada</b>: permite mais flexibilidade na programação. Trade-off na estabilidade do programa.</li>
-						<br>
-						<li><b>Funções devem ser declaradas antes do uso</b>: permite a criação e execução correta de funções.</li>
-						<br>
-						<li><b>Teste condicional deve ter tipo booleano</b>: permite utilizar a lógica de maneira mais acertiva, evitando conversões e testes específicos de tipos. Ex. <b>false == 0 -> true</b> (javascript)</li>
-					</ul>
 				</span>
 			</div>
 		</div>
