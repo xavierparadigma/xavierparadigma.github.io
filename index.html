@@ -166,6 +166,75 @@
 
 		<div class="container">
 			<div class="titulo">
+				<span>Compatibilidade e conversão entre tipos de dados</span>
+			</div>
+			<div class="texto-secao">
+				<span>
+					Como sera uma linguaguem com variaveis de tipos dinamicos a conversão sera implícita:
+					<br>
+					<br>$12 = 2
+					<br>$45 = 'ABC'
+					<br>$56 = 37.7
+					<br>$55 = true
+					<br>$67 = false
+					<br>$59 = null
+					<br>
+					<br>$85 = $12 + $56 // 39.7 -Int sera convertidos para double em operações matematicas
+					<br>$86 = $45 + $12 / $56 // '2ABC37.7' -caso tiver uma string em uma operaçao matematica, todos os operandos são convertidos em uma string e concatenados em uma unico valor
+					<br>$87 = $55 + $12 // 3 -boleanos em operações matematicas: true = 1 e false = 0
+					<br>$88 = $45 + $67 // 'ABCfalse' -boleanos são convertidos em string atravez do nome
+					<br>$89 = $56 + $56 // 37.7 -nulos nao possuem peso na conversão
+				</span>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="titulo">
+				<span>Tipos de dados</span>
+			</div>
+			<div class="texto-secao">
+				<span>
+					A linguagem ira trabalhar com os tipos de dados: Int, double, string, char, boolean sendo armazenadas em variaveis com tipagem dinamica.
+					<br>Tais tipos compreendem um conjunto base de variante de dados que toda linguagem utiliza para desenvolvimento de uma aplicação.
+					<br>A sintax da variavel será feita atraves de um '$' seguida de um numeral correspondente à aquela variavel tais como:
+					<br>$12 = 2
+					<br>$45 = 'A'
+					<br>$65 = 'Hello, World!'
+					<br>$56 = 37.7
+					<br>$55 = true
+					<br>$67 = false
+					<br>$59 = null
+					<br>Alocação de memoria terá um tamanho fixo para todos os tipode de dados, muito semelhante ao php. Ao declarar uma variavel sem atribuir um tipo de dado ela tera o valor default null.
+					<br>Trababalhará tambem com tipo de dados compostos como Array. os Arrays podem ter em cada segmento de sua alocação um tipo de dado tal como:
+					<br>
+					<br>$44 = 12, 'C', 'Oi', 45.7, false, null, 'hello, word'
+				</span>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="titulo">
+				<span>Regras semânticas</span>
+			</div>
+			<div class="texto-secao">
+				<span>
+					<ul>
+						<li><b>Checagem dinâmica de tipo</b>: permite grande flexibilidade. Tem trade-off de menos desempenho.</li>
+						<br>
+						<li><b>Retorno de Função opcional</b>: permite funções retornarem valores ou não, comportamento de subrotina. Trade-off na verificação do compilador.</li>
+						<br>
+						<li><b>Variável não necessita ser inicializada</b>: permite mais flexibilidade na programação. Trade-off na estabilidade do programa.</li>
+						<br>
+						<li><b>Funções devem ser declaradas antes do uso</b>: permite a criação e execução correta de funções.</li>
+						<br>
+						<li><b>Teste condicional deve ter tipo booleano</b>: permite utilizar a lógica de maneira mais acertiva, evitando conversões e testes específicos de tipos. Ex. <b>false == 0 -> true</b> (javascript)</li>
+					</ul>
+				</span>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="titulo">
 				<span>Categorias de controle de fluxo</span>
 			</div>
 			<div class="texto-secao">
