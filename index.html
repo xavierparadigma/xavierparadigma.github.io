@@ -57,7 +57,7 @@
 					<span>Método de implementação da linguagem</span>
 				</div>
 				<div class="texto-secao">
-					<span>Interpretação pura.</span>
+					<span>Interpretação pura, favorecendo flexibilidade na programação.</span>
 				</div>
 			</div>
 
@@ -66,7 +66,7 @@
 					<span>Paradigma de programação</span>
 				</div>
 				<div class="texto-secao">
-					<span>Orientado a objetos e funcional.</span>
+					<span>Declarativo e funcional, onde a linguagem é responsável por executar a intrução da melhor forma.</span>
 				</div>
 			</div>
 
@@ -170,7 +170,7 @@
 			</div>
 			<div class="texto-secao">
 				<span>
-					Como sera uma linguaguem com variaveis de tipos dinamicos a conversão sera implícita:
+					Como será uma linguaguem com variáveis de tipos dinâmicos, a conversão será implícita:
 					<br>
 					<br>$12 = 2
 					<br>$45 = 'ABC'
@@ -179,11 +179,11 @@
 					<br>$67 = false
 					<br>$59 = null
 					<br>
-					<br>$85 = $12 + $56 // 39.7 -Int sera convertidos para double em operações matematicas
-					<br>$86 = $45 + $12 / $56 // '2ABC37.7' -caso tiver uma string em uma operaçao matematica, todos os operandos são convertidos em uma string e concatenados em uma unico valor
-					<br>$87 = $55 + $12 // 3 -boleanos em operações matematicas: true = 1 e false = 0
-					<br>$88 = $45 + $67 // 'ABCfalse' -boleanos são convertidos em string atravez do nome
-					<br>$89 = $56 + $56 // 37.7 -nulos nao possuem peso na conversão
+					<br>$85 = $12 + $56 // 39.7 -Int será convertido para double em operações matemáticas
+					<br>$86 = $45 + $12 / $56 // '2ABC37.7' -caso tiver uma string em uma operaçao matemática, todos os operandos são convertidos em uma string e concatenados em um único valor
+					<br>$87 = $55 + $12 // 3 -boleanos em operações matemáticas: true = 1 e false = 0
+					<br>$88 = $45 + $67 // 'ABCfalse' -boleanos são convertidos em string através do nome
+					<br>$89 = $56 + $56 // 37.7 -nulos não possuem peso na conversão
 				</span>
 			</div>
 		</div>
@@ -194,9 +194,10 @@
 			</div>
 			<div class="texto-secao">
 				<span>
-					A linguagem ira trabalhar com os tipos de dados: Int, double, string, char, boolean sendo armazenadas em variaveis com tipagem dinamica.
+					A linguagem irá trabalhar com os tipos de dados: Int, double, string, char, boolean sendo armazenadas em variáveis com tipagem dinâmica.
 					<br>Tais tipos compreendem um conjunto base de variante de dados que toda linguagem utiliza para desenvolvimento de uma aplicação.
-					<br>A sintax da variavel será feita atraves de um '$' seguida de um numeral correspondente à aquela variavel tais como:
+					<br>A sintaxe da variável será feita atraves de um '$' seguido de um numeral correspondente àquela variável, tal como:
+					<br>
 					<br>$12 = 2
 					<br>$45 = 'A'
 					<br>$65 = 'Hello, World!'
@@ -204,8 +205,9 @@
 					<br>$55 = true
 					<br>$67 = false
 					<br>$59 = null
-					<br>Alocação de memoria terá um tamanho fixo para todos os tipode de dados, muito semelhante ao php. Ao declarar uma variavel sem atribuir um tipo de dado ela tera o valor default null.
-					<br>Trababalhará tambem com tipo de dados compostos como Array. os Arrays podem ter em cada segmento de sua alocação um tipo de dado tal como:
+					<br>
+					<br>A alocação de memória terá um tamanho fixo para todos os tipo de dados, muito semelhante ao PHP. Ao declarar uma variável sem atribuir um tipo de dado ela terá o valor default null.
+					<br>Trabalhará também com tipos de dados compostos como Array. Arrays podem ter em cada segmento de sua alocação um tipo de dado, tal como:
 					<br>
 					<br>$44 = 12, 'C', 'Oi', 45.7, false, null, 'hello, word'
 				</span>
@@ -218,7 +220,7 @@
 			</div>
 			<div class="texto-secao">
 				<span>
-					A linguagem leva influências da linguagem Python, porém, não apresentará recursão, nem tratamento de exceções. A linguagem utilizará Iteração, Sequenciamento, Seleção e Abstração procedural (já que segue o paradigma Funcional)
+					A linguagem leva influências da linguagem Python, porém não apresentará tratamento de exceções. A linguagem utilizará Iteração, Sequenciamento, Seleção, Recursão e Abstração procedural (já que segue o paradigma Funcional)
 					<br>
 					Exemplos:
 					<br>Iteração:
@@ -268,10 +270,11 @@
 				<span>Separação em Camadas</span>
 			</div>
 			<div class="texto-secao flex-coluna">
-				<span>A utilização da xavier se dá em camadas.
+				<span>A utilização da Xavier se dá em camadas.
 				<br><b>Camada de comandos:</b> que utiliza os comandos dados pela interface neural. 
- 				<br><b>Camada IDE:</b> realiza a visualização gráfica do algoritmo escrita.
- 				<br><b>Camada de código/linguagem:</b> contendo as regras semânticas e de sintaxe.
+ 				<br><b>Camada IDE:</b> realiza a visualização gráfica do algoritmo escrito.
+				<br><b>Camada de código/linguagem:</b> contendo as regras semânticas e de sintaxe.
+				<br>
 				<br>A XAVIER trabalha na camada de <b>código/linguagem</b> e na camada de <b>IDE</b>
 				</span>
 				<div class="imagem-container borda margem-cima">
